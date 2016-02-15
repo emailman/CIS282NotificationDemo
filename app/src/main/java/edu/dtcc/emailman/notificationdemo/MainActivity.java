@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     new NotificationCompat.Builder(getBaseContext())
                         .setSmallIcon(R.mipmap.ic_launcher)
                         .setAutoCancel(true)
-                        .setTicker("This is a new notification")
+                        .setTicker("This is a new notification")  // this feature is gone
                         .setWhen(System.currentTimeMillis())
                         .setContentTitle("Notice")
                         .setContentText("You have a new notice")
